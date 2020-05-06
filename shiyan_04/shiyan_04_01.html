@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite_actor_and_movies</title>
+    <style>
+        *{
+    background-color:rgb(28, 28, 32);
+    margin:0;
+    padding:0;
+    border: none;
+}
+.title{
+    border-bottom:gray solid 1px;
+    padding: 30px;
+    padding-top: 10px;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-family:"Verdana";
+}
+a{
+    color: aliceblue;
+    font-family:"Verdana";
+    text-decoration: none;
+    font-size: 15px;
+    width: 400px;
+    height: 50px;
+    
+}
+img{
+    height: 483px;
+    width: 342px;
+    opacity:0.7;
+    border-radius:3%;
+    cursor: pointer;  
+    -webkit-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* 外投影和内投影 */
+	-moz-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); 
+	-o-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); 
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
+    /* 效果转换时间 */
+    transition: all 0.6s;  
+}
+.post-box-container_01{
+    width: 450px;
+    position: absolute;
+    left: 5%;
+}
+.post-box-container_02{
+    width: 450px;
+    position: relative;
+    left: 50%;
+}
+.post-box-text{
+    float: left;
+}
+/* 设置鼠标移动到图片上时的缩小、透明度改变效果 */
+a:hover img{
+    filter:alpha(Opacity=100);
+    -moz-opacity:1;
+    opacity: 1;
+    transform: scale(0.95);
+} 
+/* 定义字体 */
+@font-face {
+    font-family: Zapfino;
+    src:url("fonts/Zapfino.svg"),
+        url("fonts/Zapfino.woff"),
+        url("fonts/Zapfino.ttf");
+}
+/* 字体引用 */
+p,a{
+    font-family: Zapfino;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="title">
+            <p>Welcome to My Favorite Actor and Movie !</p>
+        </div>
+        <div class="post-box-container_01">
+            <div class="post-box-image_01">
+                <a href="shiyan_04_02.html"  target="_blank"><img src="picture/alpacino_01.jpg"></a>
+                <span></span>
+            </div>
+            <div class="post-box-text">
+                <p>
+                <a href="shiyan_04_02.html"  target="_blank">AL PACINO(阿尔·帕西诺)</a>
+                </p>
+            </div>
+        </div>
+        <div class="post-box-container_02">
+            <div class="post-box-image_02">
+                <a href="shiyan_04_03.html"  target="_blank"><img src="picture/OnceUponaTimeinAmerica_01.jpg"></a>
+                <span></span>
+            </div>
+            <div class="post-box-text">
+                <p>
+                <a href="shiyan_04_03.html"  target="_blank">Once Upon a Time in America(美国往事)</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
